@@ -1,6 +1,7 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using MySql.Data.EntityFrameworkCore.Metadata;
+//using MySql.Data.EntityFrameworkCore.Metadata;
 
 namespace TiendaServicios.Api.CarritoCompra.Migrations
 {
@@ -13,7 +14,7 @@ namespace TiendaServicios.Api.CarritoCompra.Migrations
                 columns: table => new
                 {
                     CarritoSesionId = table.Column<int>(nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
+                        .Annotation("MySQL:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     FechaCreacion = table.Column<DateTime>(nullable: true)
                 },
                 constraints: table =>
@@ -26,7 +27,7 @@ namespace TiendaServicios.Api.CarritoCompra.Migrations
                 columns: table => new
                 {
                     CarritoSesionDetalleId = table.Column<int>(nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
+                        .Annotation("MySQL:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     FechaCreacion = table.Column<DateTime>(nullable: true),
                     ProductoSeleccionado = table.Column<string>(nullable: true),
                     CarritoSesionId = table.Column<int>(nullable: false)
