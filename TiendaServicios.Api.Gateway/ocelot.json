@@ -23,7 +23,10 @@
         }
       ],
       "UpstreamPathTemplate": "/Libro/{id}",
-      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET", "DELETE" ],
+      "DelegatingHandlers": [
+        "LibroHandler"
+      ]
     },
     {
       "DownstreamPathTemplate": "/api/Autor",
