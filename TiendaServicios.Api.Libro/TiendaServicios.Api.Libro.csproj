@@ -23,5 +23,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TiendaServicios.RabbitMQ.Bus\TiendaServicios.RabbitMQ.Bus.csproj" />
+  </ItemGroup>
+
 
 </Project>
