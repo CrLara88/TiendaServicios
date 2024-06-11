@@ -4,8 +4,8 @@ Proyecto práctico de Microservicios de curso de Udemy, simulando funcionalidade
 
 ## **Temas desarrollados en el proyecto**
 
-+ Modelo y Arquitectura de Microservices en .NET Core
-+ Comunicacion asincrona con RabbitMQ
++ Modelo y Arquitectura de Microservicios en .NET Core
++ Comunicación asíncrona con RabbitMQ
 + Deployment de Microservicios NET Core en Docker Containers
 + Continuous Integration (CI) Net Core/Github/Azure DevOps Pipelines
 + Entity Framework Core
