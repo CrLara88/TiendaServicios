@@ -1,6 +1,6 @@
 # **Microservicios con ASP.NET Core, RabbitMQ, Postgresql, MySql, Sql Server y Docker en Azure**
 
-Proyecto práctico de Microservicios de curso de Udemy
+Proyecto práctico de Microservicios de curso de Udemy, simulando funcionalidades de un sistema para una libreria.
 
 ## **Temas desarrollados en el proyecto**
 
